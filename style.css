@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000a0f;
+    color: #faf8f8;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  header {
+    background-color: #3b002b;
+    color: rgb(244, 240, 234);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  header p {
+    font-size: 24px;
+    color: rgb(226, 226, 226);
+  }
+  
+  .about {
+    font-size: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    color: white;
+  }
+  
+  .photo img {
+    width: 500px;
+    height: 500px;
+    margin-right: 100px;
+    border-radius: 5%;
+    border: 3px;
+    color: #844403;
+
+  }
+  
+  .info {
+    max-width: 800px;
+    color: #f0edea;
+  }
+  
+  .info h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #f67e06;
+  }
+  
+  .skills, .education {
+    padding: 10px 0;
+    background-color: #410202;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+  }
+  
+  .skills li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  footer {
+    background-color: #00890b;
+    color: rgb(12, 1, 1)
+    padding: 10px 0;
+    text-align: center
+
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: rgb(7, 0, 0)
+
+  }
+  .navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+  }
+  .navbar .logo{
+    color: rgb(217, 209, 204);
+width: 100px;
+cursor: pointer;
+margin-top: 0;
+margin-left: -3%;
+color: #f67e06;
+  }
+  ul{
+margin-top: -4%;
+  }
+  ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 10px 16px;
+    color: #f67e06;
+
+  }
+  ul li{
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(232, 149, 14);
+    margin-top: -3%;
+  }
